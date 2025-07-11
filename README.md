@@ -7,7 +7,7 @@ Este projeto é uma aplicação web que consome a **API da Pixabay** para buscar
 ## 🎥 Apresentação
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTVrZXhhYXB1ZGN1c2t1ZGRqOGg4aXZiODgzM2FpY3NsODVpNjZybCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7TKsQdG7W1n5bJWM/giphy.gif" width="600" alt="Demonstração do projeto">
+  <img src="./img/pixabay.gif">
 </p>
 
 ---
