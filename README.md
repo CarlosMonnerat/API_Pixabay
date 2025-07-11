@@ -10,8 +10,6 @@ Este projeto é uma aplicação web que consome a **API da Pixabay** para buscar
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTVrZXhhYXB1ZGN1c2t1ZGRqOGg4aXZiODgzM2FpY3NsODVpNjZybCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7TKsQdG7W1n5bJWM/giphy.gif" width="600" alt="Demonstração do projeto">
 </p>
 
-> 💡 Substitua o link acima pelo seu próprio GIF de demonstração.
-
 ---
 
 ## ✨ Funcionalidades
@@ -28,8 +26,6 @@ Este projeto é uma aplicação web que consome a **API da Pixabay** para buscar
 ## 🔗 Acesse o Projeto
 
 👉 [**Acessar o site**](https://seu-link-aqui.com)
-
-> Substitua o link acima pelo endereço real do seu projeto.
 
 ---
 
