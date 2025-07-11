@@ -25,7 +25,7 @@ Este projeto é uma aplicação web que consome a **API da Pixabay** para buscar
 
 ## 🔗 Acesse o Projeto
 
-👉 [**Acessar o site**](https://seu-link-aqui.com)
+👉 [**Acessar o site**](https://carlosmonnerat.github.io/API_Pixabay/)
 
 ---
 
