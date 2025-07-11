@@ -42,21 +42,19 @@ const createCard = ({webformatURL, pageURL, tags, likes, comments}) => {
     return card;
 };
 
-//Como 'searchImages' é uma func asincrona, ela tbm retorna uma promise. Por isso 'loadGallery' tbm precisa trabalhar de forma sincrona
 const loadGallery = async (textSearch, page = 1) => {
     const container = document.querySelector('.container-gallery');
-    const {hits, totalHits} = await searchImages (`${textSearch}&page=${page}`);  //Desestruturação
+    const {hits, totalHits} = await searchImages (`${textSearch}&page=${page}`);
     const cards = hits.map(createCard);
-    //'replaceChildren' tem q receber objs, mas 'cards' é um array. Então usa-se '...'(spread) para espalhar o array 
     container.replaceChildren(...cards);
 
     document.querySelector('#search-input').value = textSearch;
     document.querySelector('#page').value = page;
     const totalPages = Math.ceil(totalHits / 20);
-    document.querySelector('#page-total').textContent = `/ ${totalPages}` //Como 'page-total' é um 'span', não possui 'value', apenas 'content'
+    document.querySelector('#page-total').textContent = `/ ${totalPages}`;
 };
 
-const handleKeypress = ({key, target}) => {     //caracteristica do js chamada 'destructuring'. => (event.key, event.target)
+const handleKeypress = ({key, target}) => {
     if(key === 'Enter'){
          loadGallery(target.value);
     }   
